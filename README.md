@@ -6,11 +6,11 @@ You must have [python](https://www.python.org/downloads/) installed on your loca
 
 ### Windows
 1. Navigate to your local repository with File Explorer or from the command line.
-2. Either double click run.bat from File Explorer or run .\run.bat in Powershell
+2. Either double click run.bat from File Explorer or run `.\run.bat` in Powershell
 
 ### Mac OS/Unix
 1. Navigate to your local repository from a bash terminal
-2. Run ./run.sh from the command line.
+2. Run `./run.sh` from the command line.
 
 ## Inputting Directions
 The directional input is a sequence of instructions, with each instruction containing a number of steps followed by the direction.
@@ -32,7 +32,7 @@ The instructions are formatted into a single string with no whitespace or separa
 4. 5 steps left (5L)
 
 Which will return:
-`You are 5.830951894845301 steps from your starting point!`
+```You are 5.830951894845301 steps from your starting point!```
 
 # Adventurer Journey - Back End
 Please complete the story below and create a program to solve the problem. Commit any work back to the remote no later than 48 hours before the next interview.
