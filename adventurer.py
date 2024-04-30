@@ -8,13 +8,13 @@ class Adventurer:
         self.lat = 0
         self.lng = 0
 
-    def move(self, amount: int, direction: Literal["F", "B", "R", "L"]):
+    def move(self, steps: int, direction: Literal["F", "B", "R", "L"]):
         match direction:
             case "F":
-                self.lat += amount
+                self.lat += steps
             case "B":
-                self.lat -= amount
+                self.lat -= steps
             case "R":
-                self.lng += amount
+                self.lng += steps
             case "L":
-                self.lng -= amount
+                self.lng -= steps
