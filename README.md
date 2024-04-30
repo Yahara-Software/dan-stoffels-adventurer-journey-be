@@ -2,7 +2,7 @@
 You are an adventurer trying to navigate to a destination using specific directional instructions. Adventurer Journey will run your instructions and determine the distance from your destination to the starting point as the crow flies. 
 
 ## Running The Program
-You must have python installed on your local machine, then clone this repository down. 
+You must have [python](https://www.python.org/downloads/) installed on your local machine, then clone this repository. 
 
 ### Windows
 1. Navigate to your local repository with File Explorer or from the command line.
