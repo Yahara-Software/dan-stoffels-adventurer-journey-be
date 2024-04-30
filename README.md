@@ -1,3 +1,36 @@
+# Adventurer Journey
+You are an adventurer trying to navigate to a destination using specific directional instructions. Adventurer Journey will run your instructions and determine the distance from your destination to the starting point as the crow flies. 
+
+## Running The Program
+You must have python installed on your local machine, then clone this repository down. 
+
+### Windows
+1. Navigate to your local repository with File Explorer or from the command line.
+2. Either double click run.bat from File Explorer or run .\run.bat in Powershell
+
+### Mac OS/Unix
+1. Navigate to your local repository from a bash terminal
+2. Run ./run.sh from the command line.
+
+## Inputting Directions
+The directional input is a sequence of instructions, with each instruction containing a number of steps followed by the direction.
+
+The possible directions are:
+- F to go forward/north
+- B to go backward/south
+- R to go right/east
+- L to go left/west
+
+The instructions are formatted into a single string with no whitespace or separators.
+
+#### Example
+`15F6B6B5L`
+
+1. 15 steps forward (15F)
+2. 6 steps back (6B)
+3. 6 steps back (6B)
+4. 5 steps left (5L)
+
 # Adventurer Journey - Back End
 Please complete the story below and create a program to solve the problem. Commit any work back to the remote no later than 48 hours before the next interview.
 
