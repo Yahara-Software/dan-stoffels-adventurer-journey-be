@@ -1,4 +1,5 @@
 from adventurer import Adventurer
+import math
 
 
 def parse_directions(sequence: str):
@@ -30,6 +31,10 @@ def move_adventurer(adventurer: Adventurer, directions: list[tuple[int, str]]):
         adventurer.move(steps, dir)
 
 
+def calculate_euclid_distance(lat: int, lng: int):
+    return math.sqrt(lat**2 + lng**2)
+
+
 def main():
     prompt = """Please enter a direction sequence to move your adventurer! Each instruction in the sequence starts with the number of steps followed by the direction.
     
@@ -47,6 +52,9 @@ Example: 5F25R15B is five steps forward, 25 steps right, 15 steps back.
     directions = parse_directions(direction_sequence)
 
     move_adventurer(adventurer, directions)
+
+    final_distance = calculate_euclid_distance(adventurer.lat, adventurer.lng)
+    print(f"You are {final_distance} steps from your starting point!")
 
 
 main()
