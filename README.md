@@ -23,13 +23,16 @@ The possible directions are:
 
 The instructions are formatted into a single string with no whitespace or separators.
 
-#### Example
+### Example
 `15F6B6B5L`
 
 1. 15 steps forward (15F)
 2. 6 steps back (6B)
 3. 6 steps back (6B)
 4. 5 steps left (5L)
+
+Which will return:
+`You are 5.830951894845301 steps from your starting point!`
 
 # Adventurer Journey - Back End
 Please complete the story below and create a program to solve the problem. Commit any work back to the remote no later than 48 hours before the next interview.
